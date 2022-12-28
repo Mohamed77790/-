@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(225, 238, 250);
+}
+
+
+
+
+@media (max-width: 575.98px) {  
+      .first{
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #1c1d1fd7; 
+}
+.first ul{
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+} 
+.third{
+    color: black;
+}
+.container2{
+    display: flex;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.container2{
+    margin-top: 30px;
+}
+.container2 .dex{
+    padding-left: 15px;
+    width: 50%;
+}
+.container2 .images{
+    padding-left: 15px;
+    border-radius: 10%;
+    width: 50%;
+    background-image: url(../images/milk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 576px ) and (max-width: 767.98px) { 
+
+    .first{
+        height: 50px;
+        background-color: #1c1d1fd7;
+        width: 100%;
+        font-size: 20px;
+    }
+    .first ul{
+        padding-left: 90px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .dropdown{
+        padding-left: 5px;
+        display: inline-block;
+    }
+    .third{
+        color: black;
+    }
+    .container2{
+        display: flex;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .container2{
+        margin-top: 30px;
+    }
+    .container2 .dex{
+        padding-left: 15px;
+        width: 50%;
+        height: 300px;
+    }
+    .container2 .images{
+        padding-left: 15px;
+        border-radius: 10%;
+        width: 50%;
+        height: 300px;
+        background-image: url(../images/milk.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .first{
+        height: 50px;
+        background-color: #1c1d1fd7;
+        width: 100%;
+        font-size: 20px;
+    }
+    .first ul{
+        padding-left: 260px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .dropdown{
+        padding-left: 25px;
+        display: inline-block;
+    }
+    .third{
+        color: black;
+    }
+    .container2{
+        display: flex;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .container2{
+        margin-top: 30px;
+    }
+    .container2 .dex{
+        padding-left: 15px;
+        width: 50%;
+        height: 300px;
+    }
+    .container2 .images{
+        padding-left: 15px;
+        border-radius: 10%;
+        width: 50%;
+        height: 300px;
+        background-image: url(../images/milk.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px) { 
+    .first{
+        height: 65px;
+        background-color: #1c1d1fd7;
+        width: 100%;
+        font-size: 25px;
+    }
+    .first ul{
+        padding-left: 570px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .dropdown{
+        padding-left: 10px;
+        display: inline-block;
+    }
+    .third{
+        color: black;
+    }
+    .container2{
+        display: flex;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .container2{
+        margin-top: 30px;
+    }
+    .container2 .dex{
+        padding-left: 15px;
+        width: 50%;
+        height: 300px;
+    }
+    .container2 .images{
+        padding-left: 15px;
+        border-radius: 10%;
+        width: 50%;
+        height: 300px;
+        background-image: url(../images/milk.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
+
+
+
+
+
+
+
+
+
+ 
+ 
+    .dropdown{
+        padding-left: 5px;
+        display: inline-block;
+    }
+  
+
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.first ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.first ul li a{
+    color: wheat;
+    text-decoration: none;
+}
+.dropdown i{
+    padding-left: 0px;
+    color: wheat;
+}
+.second{
+    color: white;
+    
+}
+.container1{
+    display: flex;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.container1 .one{
+    background-color: #1c1d1fd7;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10%;
+    cursor:help;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    transition: all 0.3s;
+}
+.container1 .one:hover{
+    box-shadow: 3px 3px 10px rgb(102, 128, 245);
+    transform: translatey(-6px);
+}
